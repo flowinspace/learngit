@@ -1,0 +1,17 @@
+cmd基础
+
+一  cmd命令行下对环境变量的修改(只对当前窗口有效)
+set home //查看环境变量$home
+set gopath=c:/go //修改gopath的值
+set gopath=   //设置为空
+set gopath=%gopath%;c:/go/work //追加gopath的值
+
+二  cmd命令行创建目录和文件
+dir  //查看
+md src\github.com\flowinspace\hello  //创建目录
+md 1 2 3  //创建三个目录 1 2 3
+rd 1 2 3  //删除三个目录 1 2 3
+notepad++ hello.go  //编辑hello.go文件（若无，会提醒创建）
+del hello.go  //删除hello.go文件
+
+start 路径/可执行程序  //执行程序
