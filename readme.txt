@@ -16,5 +16,5 @@ git status
 git diff readme.txt
 
 git reset --hard HEAD^
-
+git reset --hard 92e4051
 
