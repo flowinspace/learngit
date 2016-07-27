@@ -19,3 +19,14 @@ git reset --hard HEAD^
 git reflog
 git reset --hard 92e4051
 
+ssh-keygen -t rsa -C "youremail@example.com"
+//please dig enterKey continue
+
+git remote add origin git@github.com:flowinspace/learngit.git
+git push -u origin master
+//from now on,just command this express
+git push origin master
+
+git clone git@github.com:flowinspace/hello-world.git
+
+
